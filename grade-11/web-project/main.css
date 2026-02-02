@@ -1,17 +1,10 @@
-.container{
-        display: flex;
-        gap: 20px; /* Jarak antar kotak */
-        justify-content: center;
-        flex-wrap: wrap;
-}
+/* ABOUT SECTION */
 
 .about {
 
 }
 
-.lastWinner {
-
-}
+/* PREVIOUS WINNER SECTION */
 
 .winner-container {
     display: flex;       /* Turns the container into a flexbox */
@@ -22,7 +15,8 @@
 .winner-container img {
   flex-shrink: 0;      /* Prevents the image from getting squished */
   width: 200px;        /* Set your preferred width */
-  height: auto;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .winner-text {
@@ -35,7 +29,7 @@
     margin: 0;
 }
 
-/* BAGIAN TOP 3 STUDENTS */
+/* TOP 3 STUDENTS SECTION */
 
 /* Mengatur posisi kartu agar berjejer */
 .student-grid {
