@@ -17,16 +17,21 @@
   width: 200px;        /* Set your preferred width */
   height: 200px;
   border-radius: 50%;
+  margin-top: auto;
 }
 
 .winner-text {
     display: flex;
     flex-direction: column; /* This stacks the name ABOVE the paragraph */
-    gap: 5px;               /* Space between the name and the paragraph */
+    gap: 0px;               /* Space between the name and the paragraph */
 }
 
 .winner-text h4  {
-    margin: 0;
+  margin: 0;
+}
+
+.winner-text p {
+  margin: 0;
 }
 
 /* TOP 3 STUDENTS SECTION */
@@ -60,6 +65,7 @@
 .stars {
   font-size: 2rem;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .review {
@@ -73,4 +79,12 @@
   margin-top: 20px;
   font-size: 1.1rem;
   cursor: pointer;
+}
+
+a {
+  color:rgb(0, 0, 0)
+}
+
+a:hover {
+  color:rgb(4, 21, 152)
 }
